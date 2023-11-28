@@ -702,6 +702,10 @@ progress {
   margin-left: auto;
 }
 
+.logo {
+  color: var(--blanco);  
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
