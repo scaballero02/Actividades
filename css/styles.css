@@ -10906,6 +10906,38 @@ textarea.form-control-lg {
   font-size: 4.5rem;
 }
 
+
+header.mastheadWithoutImg {
+  position: relative;
+  background-color: #f9fafb;
+  /* background: url("../assets/img/americana.jpeg") no-repeat center center; */
+  background-size:cover;
+  
+}
+
+header.mastheadWithoutImg:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+header.mastheadWithoutImg h1, header.mastheadWithoutImg .h1 {
+  font-size: 5rem;
+}
+@media (min-width: 768px) {
+  header.mastheadWithoutImg {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.mastheadWithoutImg h1, header.mastheadWithoutImg .h1 {
+    font-size: 3rem;
+  }
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
